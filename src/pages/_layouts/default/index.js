@@ -1,18 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import { Wrapper, Logo, Container } from './styles';
-import logo from '../../../assets/logo.png';
+import { Wrapper } from "./styles";
 
 export default function DefaultLayout({ children }) {
-  return (
-    <Wrapper>
-      <Logo src={logo} alt="Naruto" />
-      <Container>{children}</Container>
-    </Wrapper>
-  );
+  return <Wrapper>{children}</Wrapper>;
 }
 
 DefaultLayout.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.element.isRequired
 };
