@@ -1,23 +1,25 @@
 import React from "react";
 
-import { Item } from "./styles";
 import Container from "../../components/Container";
+import Item from "../../components/Item";
 
 import xp from "../../services/rules/xp";
 
 export default function XP() {
-  return (
-    <Container>
-      {xp.map(type => (
-        <Item key={type.name}>
-          <h1>{type.name}</h1>
-          <div>
+  return xp.map(type => (
+    <Container key={type.name}>
+      <Item>
+        <h1>{type.name}</h1>
+        <table>
+          <tbody>
             {type.values.map(value => (
-              <span>{value}</span>
+              <tr key={value}>
+                <td>{value}</td>
+              </tr>
             ))}
-          </div>
-        </Item>
-      ))}
+          </tbody>
+        </table>
+      </Item>
     </Container>
-  );
+  ));
 }

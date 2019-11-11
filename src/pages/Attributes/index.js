@@ -1,7 +1,8 @@
 import React from "react";
 
-import { Item, Title } from "./styles";
 import Container from "../../components/Container";
+import Item from "../../components/Item";
+import Title from "../../components/Title";
 
 import attributes from "../../services/rules/attributes";
 

@@ -1,5 +1,5 @@
 export default {
-  genin: {
+  Genin: {
     atributos: "7/5/3",
     habilidades: "13/9/5",
     elementos: 2,
@@ -10,7 +10,7 @@ export default {
     pontos_bonus: 25,
     vitalidade: 10
   },
-  chunin: {
+  Chunin: {
     atributos: "8/6/4",
     habilidades: "14/14/14",
     elementos: 3,
@@ -21,7 +21,7 @@ export default {
     pontos_bonus: 25,
     vitalidade: 20
   },
-  jonin: {
+  Jonin: {
     atributos: "10/8/6",
     habilidades: "18/18/18",
     elementos: 5,
@@ -32,7 +32,7 @@ export default {
     pontos_bonus: 25,
     vitalidade: 30
   },
-  anbu: {
+  Anbu: {
     atributos: "10/8/6",
     habilidades: "24/24/24",
     elementos: 4,
@@ -43,7 +43,7 @@ export default {
     pontos_bonus: 25,
     vitalidade: 30
   },
-  sanin: {
+  Sanin: {
     atributos: "12/12/12",
     habilidades: "30/30/30",
     elementos: 10,
@@ -54,7 +54,7 @@ export default {
     pontos_bonus: 25,
     vitalidade: 50
   },
-  hokage: {
+  Hokage: {
     atributos: "17/17/17",
     habilidades: "40/40/40",
     elementos: 15,

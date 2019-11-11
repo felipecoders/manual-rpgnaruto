@@ -1,23 +1,33 @@
 export default [
   {
+    name: "Aburame",
+    details: ["Proibido elementos", "Insetos", "Imune a genjutsu"]
+  },
+  {
+    name: "Akimichi",
+    details: ["Hijutsu + 1", "vigor + 2"]
+  },
+  {
+    name: "Hatake",
+    details: [
+      "Chakra Branco (Metade do custo de chakra normal)",
+      "Ninjutsu + 1",
+      "Genjutsu + 1",
+      "Taijutsu + 1"
+    ]
+  },
+  {
     name: "Hyuuga",
     details: ["Atributos Mentais + 1", "Byakugan", "Juuken"]
   },
   {
-    name: "Uchiha",
+    name: "Inuzuka",
     details: [
-      "Atributos Sociais + 1",
-      "Katon (como elemento primário)",
-      "Sharingan"
+      "Companheiro animal",
+      "Percepção + 2",
+      "Hijutsu + 1",
+      "Destreza + 2"
     ]
-  },
-  {
-    name: "Yamanaka",
-    details: ["Hijutsu + 1", "Manipulação + 2"]
-  },
-  {
-    name: "Aburame",
-    details: ["Proibido elementos", "Insetos", "Imune a genjutsu"]
   },
   {
     name: "Nara",
@@ -28,10 +38,6 @@ export default [
       "Hijutsu + 1",
       "Gênio"
     ]
-  },
-  {
-    name: "Akimichi",
-    details: ["Hijutsu + 1", "vigor + 2"]
   },
   {
     name: "Sarutobi",
@@ -47,6 +53,14 @@ export default [
     ]
   },
   {
+    name: "Uchiha",
+    details: [
+      "Atributos Sociais + 1",
+      "Katon (como elemento primário)",
+      "Sharingan"
+    ]
+  },
+  {
     name: "Uzumaki",
     details: [
       "Chakra + 10",
@@ -56,21 +70,7 @@ export default [
     ]
   },
   {
-    name: "Inuzuka",
-    details: [
-      "Companheiro animal",
-      "Percepção + 2",
-      "Hijutsu + 1",
-      "Destreza + 2"
-    ]
-  },
-  {
-    name: "Hatake",
-    details: [
-      "Chakra Branco (Metade do custo de chakra normal)",
-      "Ninjutsu + 1",
-      "Genjutsu + 1",
-      "Taijutsu + 1"
-    ]
+    name: "Yamanaka",
+    details: ["Hijutsu + 1", "Manipulação + 2"]
   }
 ];

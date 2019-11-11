@@ -4,7 +4,8 @@ export default [
     description:
       "Cada ponto em aliados é a quantidade de aliados que você tem.",
     // 1 ponto de 1 à 5, etc...
-    values: ["1 - 5", "5 - 15", "30 - 50", "50 - 100", "100 - 300"]
+    values: ["1 - 5", "5 - 15", "30 - 50", "50 - 100", "100 - 300"],
+    postvalues: "Aliados"
   },
   {
     name: "Recursos",
@@ -16,7 +17,8 @@ export default [
       "48000 - 96000",
       "192000 - 384000",
       "1000000 - 3000000"
-    ]
+    ],
+    postvalues: "Yenes"
   },
   {
     name: "Status",

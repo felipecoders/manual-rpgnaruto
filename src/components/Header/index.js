@@ -8,6 +8,7 @@ import logo from "../../assets/logo.png";
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false);
+
   return (
     <Container>
       <img src={logo} alt="Naruto" />
