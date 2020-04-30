@@ -43,6 +43,9 @@ export default function Header() {
           <Link to="/xp">
             <li onClick={() => setSidebar(false)}>XP</li>
           </Link>
+          <Link to="/downloads">
+            <li onClick={() => setSidebar(false)}>Downloads</li>
+          </Link>
         </ul>
       </Sidebar>
     </Container>
