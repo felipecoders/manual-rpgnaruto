@@ -1,61 +1,71 @@
 export default [
   {
-    name: 'Atributo Lendário',
+    name: "Atributo Lendário",
     coast: [7],
     description:
-      'Coloca 1 atributo escolhido em 5 e tem a oportunidade de escolher uma das três seguintes habilidades: +2 no resultado dos dados, ou rolar com vantagem sempre que envolver o atributo, passar automaticamente em questões básicas do atributo.',
+      "Coloca 1 atributo escolhido em 5 e tem a oportunidade de escolher uma das três seguintes habilidades: +2 no resultado dos dados, ou rolar com vantagem sempre que envolver o atributo, passar automaticamente em questões básicas do atributo.",
   },
   {
-    name: 'Gênio',
+    name: "Gênio",
     coast: [4],
     description:
-      'Aprender técnicas que não sejam de kekkei genkai, com metade do custo.',
+      "Aprender técnicas que não sejam de kekkei genkai, com metade do custo.",
   },
   {
-    name: 'Aprendiz Rápido',
+    name: "Aprendiz Rápido",
     coast: [4],
-    description: 'Aprender técnicas, com metade do tempo.',
+    description: "Aprender técnicas, com metade do tempo.",
   },
   {
-    name: 'Linhagem Avançada',
+    name: "Linhagem Avançada",
     coast: [5],
     description:
-      'Aprender técnicas que sejam de kekkei genkai, com metade do custo.',
+      "Aprender técnicas que sejam de kekkei genkai, com metade do custo.",
   },
   {
-    name: 'Chakra Gigantesco',
+    name: "Chakra Gigantesco",
     coast: [3],
-    description: 'Automaticamente +1 e a cada final de crônica +1.',
+    description: "Automaticamente +1 e a cada final de crônica +1.",
   },
   {
-    name: 'Chakra Especial',
+    name: "Chakra Especial",
     coast: [3],
-    description: 'Cada bolinha vale x2.',
+    description: "Cada bolinha vale x2.",
   },
   {
-    name: 'Sorte',
+    name: "Sorte",
     coast: [6],
-    description: '3x por dia, um resultado errado pode ser modificado.',
+    description: "3x por dia, um resultado errado pode ser modificado.",
   },
   {
-    name: 'Voz Encantadora',
+    name: "Voz Encantadora",
     coast: [2],
-    description: 'Vantagem em testes sociais.',
+    description: "Vantagem em testes sociais.",
   },
   {
-    name: 'Favor',
+    name: "Favor",
     coast: [1, 5],
-    description: 'Alguém de nível mais alto ou baixo, que lhe deve um favor.',
+    description: "Alguém de nível mais alto ou baixo, que lhe deve um favor.",
   },
   {
-    name: 'Jinshuriki',
+    name: "Jinshuriki",
     coast: [10],
-    description: '+5 em todos os atributos e +20 de chakra a cada calda.',
+    description: "+5 em todos os atributos e +20 de chakra a cada calda.",
   },
   {
-    name: 'Proteção',
+    name: "Proteção",
     coast: [6],
     description:
-      'Espirito que lhe protege sem o seu comando (Como a areia de Gaara).',
+      "Espirito que lhe protege sem o seu comando (Como a areia de Gaara).",
+  },
+  {
+    name: "Vigor de Ferro",
+    coast: [5],
+    description: "Vigor x2 para determinar a quantidade de vida",
+  },
+  {
+    name: "Punho de Ferro",
+    coast: [5],
+    description: "Força x2 para calculo de dano",
   },
 ];

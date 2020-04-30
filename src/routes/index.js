@@ -10,6 +10,7 @@ import VirtudesFlaws from "../pages/VirtudesFlaws";
 import Points from "../pages/Points";
 import Rolls from "../pages/Rolls";
 import XP from "../pages/XP";
+import Downloads from "../pages/Downloads";
 
 export default function Routes() {
   return (
@@ -22,6 +23,7 @@ export default function Routes() {
       <Route path="/points" component={Points} />
       <Route path="/rolls" component={Rolls} />
       <Route path="/xp" component={XP} />
+      <Route path="/downloads" component={Downloads} />
     </Switch>
   );
 }
