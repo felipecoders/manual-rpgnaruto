@@ -68,4 +68,9 @@ export default [
     coast: [5],
     description: "Força x2 para calculo de dano",
   },
+  {
+    name: "Futuro brilhante",
+    coast: [7],
+    description: "Algo brilhante ocorrera com você.",
+  },
 ];

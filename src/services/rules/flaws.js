@@ -1,70 +1,76 @@
 export default [
   {
-    name: 'Cicatriz',
+    name: "Cicatriz",
     coast: [1, 3],
-    description: 'Corte feito de forma adversa.',
+    description: "Corte feito de forma adversa.",
   },
   {
-    name: 'Mania',
+    name: "Mania",
     coast: [2],
     description:
-      'Algo que você realiza com frequência antes de uma determinada ação.',
+      "Algo que você realiza com frequência antes de uma determinada ação.",
   },
   {
-    name: 'Compulsão',
+    name: "Compulsão",
     coast: [1, 3],
-    description: 'Mesmo que mania, mas não consegue controlar.',
+    description: "Mesmo que mania, mas não consegue controlar.",
   },
   {
-    name: 'Inimigo',
+    name: "Inimigo",
     coast: [5, 7],
-    description: 'Você possui um arquirrival, mais forte que você.',
+    description: "Você possui um arquirrival, mais forte que você.",
   },
   {
-    name: 'Inapto',
+    name: "Inapto",
     coast: [6],
     description:
-      'Incapaz de aprender habilidades de talento ou pericias. Este talento é cumulativo.',
+      "Incapaz de aprender habilidades de talento ou pericias. Este talento é cumulativo.",
   },
   {
-    name: 'Analfabeto',
+    name: "Analfabeto",
     coast: [6],
-    description: 'Incapaz de aprender habilidades de conhecimentos.',
+    description: "Incapaz de aprender habilidades de conhecimentos.",
   },
   {
-    name: 'Inimizade com clã',
+    name: "Inimizade com clã",
     coast: [6],
-    description: 'Por algum motivo o clã odeia você.',
+    description: "Por algum motivo o clã odeia você.",
   },
   {
-    name: 'Futuro negro',
+    name: "Futuro negro",
     coast: [7],
-    description: 'Teu futuro é negro e algo de ruim no futuro acontecerá.',
+    description: "Teu futuro é negro e algo de ruim no futuro acontecerá.",
   },
   {
-    name: 'Azar',
+    name: "Azar",
     coast: [6],
-    description: '3x por dia o mestre pode re-rolar 1 sucesso seu.',
+    description: "3x por dia o mestre pode re-rolar 1 sucesso seu.",
   },
   {
-    name: 'Membro em Observação',
+    name: "Membro em Observação",
     coast: [4],
     description:
-      'Seu passado obscuro faz com que alguém tenha cautela sobre você e o mantenha sobre vigilância.',
+      "Seu passado obscuro faz com que alguém tenha cautela sobre você e o mantenha sobre vigilância.",
   },
   {
-    name: 'Inabilidade Ninjutsu',
+    name: "Inabilidade Ninjutsu",
     coast: [5],
-    description: 'Alguém que não consegue aprender ou utilizar.',
+    description: "Alguém que não consegue aprender ou utilizar.",
   },
   {
-    name: 'Inabilidade Taijutsu',
+    name: "Inabilidade Taijutsu",
     coast: [5],
-    description: 'Alguém que não consegue aprender ou utilizar.',
+    description: "Alguém que não consegue aprender ou utilizar.",
   },
   {
-    name: 'Inabilidade Genjutsu',
+    name: "Inabilidade Genjutsu",
     coast: [5],
-    description: 'Alguém que não consegue aprender ou utilizar.',
+    description: "Alguém que não consegue aprender ou utilizar.",
+  },
+  {
+    name: "Chakra ofuscante",
+    coast: [3],
+    description:
+      "+2 nivel de chara, seu chakra não pode ser escondido de rastreadores e absorvedores de chakra o notam com mais facilidade",
   },
 ];
