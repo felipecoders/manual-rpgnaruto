@@ -73,4 +73,10 @@ export default [
     coast: [7],
     description: "Algo brilhante ocorrera com você.",
   },
+  {
+    name: "Prodigio no combate",
+    coast: [5],
+    description:
+      "Você nasceu com o dom para os ensinamentos de tal arte. Pessoas que nascem com este dom, podem comprar pontos no combate escolhido pela metade do custo",
+  },
 ];
